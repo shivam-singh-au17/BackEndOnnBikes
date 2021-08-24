@@ -1,12 +1,13 @@
 
+const path = require("path");
 const express = require("express");
-const app = express();
 
 const connect = require("./configs/db");
-
 const filterprodController = require("./controllers/filterProduct.controllers");
 
+const app = express();
 app.use(express.json());
+
 
 app.use("/filterProducts", filterprodController);
 

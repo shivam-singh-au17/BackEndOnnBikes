@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 const connect = () => {
-    return mongoose.connect("mongodb://localhost:27017/OnnBikes", {
+    return mongoose.connect("mongodb+srv://Shivammz20:Shivam@mz20@cluster0.2ni1p.mongodb.net/OnnBikes?retryWrites=true&w=majority", {
         useNewUrlParser: true,
         useCreateIndex: true,
         useUnifiedTopology: true,
