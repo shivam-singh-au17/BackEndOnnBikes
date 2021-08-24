@@ -4,15 +4,13 @@ const app = express();
 
 const connect = require("./configs/db");
 
-const productController = require("./controllers/product.controllers");
-const colourController = require("./controllers/colours.controller");
+const filterprodController = require("./controllers/filterProduct.controllers");
 
 app.use(express.json());
 
-app.use("/products", productController);
-app.use("/colours", colourController);
+app.use("/filterProducts", filterprodController);
 
-app.listen(3001, async () => {
+app.listen(3007, async () => {
     await connect();
-    console.log("Listening on port 3001");
+    console.log("Listening on port 3007");
 })
