@@ -91,8 +91,7 @@
 * By following a well-structured way, all of us successfully completed our responsibilities before the given time. The members of team ONNBIKES are-
 ## Hema Shyamala
 #### Github: [HemaShyamala](https://github.com/HemaShyamala)
-## Nikhil Joshi
-#### Github [NikhilFSWD](https://github.com/NikhilFSWD)
+
 ## Ananthu Asokkumar
 #### Github [ananthuasokkumar](https://github.com/ananthuasokkumar)
 
