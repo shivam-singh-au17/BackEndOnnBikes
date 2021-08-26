@@ -7,9 +7,6 @@ const crudController = require("./crudFilter.controllers");
 
 router.post("/", crudController(Filterprod).post);
 
-router.get("/", crudController(Filterprod).getsafety);
-router.get("/offers", crudController(Filterprod).getoffers);
-router.get("/blog", crudController(Filterprod).getblog);
 router.get("/filterPro", crudController(Filterprod).get);
 
 router.get("/:id", crudController(Filterprod).getOne);

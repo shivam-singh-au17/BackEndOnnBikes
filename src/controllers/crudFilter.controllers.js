@@ -22,30 +22,6 @@ const get = (model) => async (req, res) => {
     }
 }
 
-const getsafety = (model) => async (req, res) => {
-    try {
-        return res.render("safety")
-    } catch (err) {
-        return res.status(400).send(err.message)
-    }
-}
-
-
-const getoffers = (model) => async (req, res) => {
-    try {
-        return res.render("offers")
-    } catch (err) {
-        return res.status(400).send(err.message)
-    }
-}
-
-const getblog = (model) => async (req, res) => {
-    try {
-        return res.render("BLOGpage")
-    } catch (err) {
-        return res.status(400).send(err.message)
-    }
-}
 
 
 const getOne = (model) => async (req, res) => {
@@ -81,9 +57,6 @@ const deleteOne = (model, itemName) => async (req, res) => {
 module.exports = (model, itemName) => ({
     post: post(model),
     get: get(model),
-    getsafety: getsafety(model),
-    getoffers: getoffers(model),
-    getblog: getblog(model),
     getOne: getOne(model),
     patchOne: patchOne(model),
     deleteOne: deleteOne(model, itemName)
