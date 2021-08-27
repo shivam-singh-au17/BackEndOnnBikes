@@ -26,12 +26,13 @@ const get = (model) => async (req, res) => {
 
 const getOne = (model) => async (req, res) => {
     try {
-        const item = await model.findById(req.params.id).lean().exec();
+        const item = await model.find().lean().exec();
         return res.status(200).send(item)
     } catch (err) {
         return res.status(400).send(err.message)
     }
 }
+
 
 
 const patchOne = (model) => async (req, res) => {
