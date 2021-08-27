@@ -14,13 +14,14 @@ const post = (model) => async (req, res) => {
 const get = (model) => async (req, res) => {
     try {
         const item = await model.find().lean().exec();
-        return res.render("filterdata/allFilterData", {
+        return res.render("allFilterData", {
             item: item
         })
     } catch (err) {
         return res.status(400).send(err.message)
     }
 }
+
 
 
 const getOne = (model) => async (req, res) => {
