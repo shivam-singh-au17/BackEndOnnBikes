@@ -1,4 +1,3 @@
-
 const express = require("express");
 const router = express.Router();
 
@@ -11,5 +10,4 @@ router.get("/:id", crudController(Arroflocation).getOne);
 router.patch("/:id", crudController(Arroflocation).patchOne);
 router.delete("/:id", crudController(Arroflocation, "arroflocation").deleteOne);
 
-module.exports = router
-
+module.exports = router;
