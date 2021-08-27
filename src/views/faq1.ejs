@@ -1,366 +1,586 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support : Simplifying Mobility</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
 
-<title>Support:simplifying Mobility</title>
-<style>
-    .head {
-        width: 100%;
-        height: 120px;
-        border-bottom: 1px solid gainsboro;
-    }
-    
-    #simplifying {
-        font-size: 25px;
-        color: grey;
-        margin-left: 15%;
-        margin-top: 20px;
-    }
-    
-    #welcome {
-        font-size: 15px;
-        color: grey;
-        margin-left: 80%;
-        margin-top: -10%;
-    }
-    
-    #login {
-        width: 100px;
-        height: 40px;
-        background-color: #02b875;
-        color: white;
-        text-decoration: none;
-        color: white;
-        margin-left: -5%;
-    }
-    
-    #signup {
-        width: 100px;
-        height: 40px;
-        background-color: white;
-        color: black;
-        text-decoration: none;
-        color: black;
-    }
-    
-    .nav {
-        width: 100%;
-        height: 40px;
-        border-bottom: 0.3px solid gainsboro;
-        margin-top: 0.5%;
-    }
-    
-    #home {
-        border: none;
-        margin-left: 10%;
-        color: black;
-        font-size: 20px;
-        background-color: white;
-        margin-top: 0.5%;
-    }
-    
-    #solutions {
-        border: none;
-        margin-left: 4%;
-        color: black;
-        font-size: 20px;
-        background-color: white;
-    }
-    
-    .main {
-        background-color: whitesmoke;
-        border-bottom: 0.5px solid gray;
-        height: 180px;
-    }
-    
-    #form {
-        float: none;
-        display: block;
-        text-align: left;
-        width: 100%;
-        margin: 0;
-        padding: 14px;
-    }
-    
-    #search {
-        width: 500px;
-        height: 30px;
-    }
-    
-    #submit {
-        width: 70px;
-        height: 30px;
-    }
-    
-    #box {
-        width: 20px;
-        height: 20px;
-        border: 1px solid grey;
-        margin-left: 10px;
-        background-color: grey;
-        position: absolute;
-        justify-content: center;
-        text-align: center;
-        font-size: 20px;
-        color: white;
-    }
-    
-    #ticket {
-        margin-left: 40px;
-    }
-    
-    #box2 {
-        width: 20px;
-        height: 20px;
-        border: 1px solid grey;
-        margin-left: 50px;
-        background-color: grey;
-        position: absolute;
-        justify-content: center;
-        text-align: center;
-        font-size: 20px;
-        color: white;
-    }
-    
-    #ticket2 {
-        margin-left: 80px;
-    }
-    
-    .main {
-        margin-left: 150px;
-        background-color: whitesmoke;
-    }
-    
-    .main1 {
-        width: 800px;
-        height: 900px;
-        border: 1px solid grey;
-        background-color: white;
-        margin-left: 150px;
-        margin-top: 20px;
-    }
-    
-    .submain1 {
-        background-color: white;
-        margin-left: 20px;
-    }
-    
-    .submain11 {
-        border-bottom: 1px solid green;
-        margin-bottom: 10px;
-        background-color: white;
-    }
-    
-    #b {
-        margin-left: 400px;
-        margin-top: -158px;
-    }
-    
-    #d {
-        margin-left: 400px;
-        margin-top: -158px;
-    }
-    
-    #f {
-        margin-left: 400px;
-        margin-top: -158px;
-    }
-    
-    #h {
-        margin-left: 400px;
-        margin-top: -158px;
-    }
-    
-    .nikhil {
-        background-color: whitesmoke;
-        border: 1px solid #ffffff;
-    }
-    
-    li a {
-        text-decoration: none;
-        color: #85939e;
-    }
-    
-    h3 {
-        color: #284053;
-    }
-</style>
+    <link rel="stylesheet" href="../CSS_FILE/faq.css" />
+  </head>
+  <body>
+    <div id="main">
+      <!-- main body start -->
 
-<body>
-    <div class="head">
-        <label id="simplifying">Simplifying Mobility </label>
-        <label id="welcome">Welcome</label>
-
-        <button id="login" onclick="login()">
-        <b
-          ><a href="login.html" style="text-decoration: none; color: white">
-            LOGIN
-          </a></b
-        >
-      </button>
-        <button id="signup" onclick="signup()">
-        <b
-          ><a
-            href="signup.html"
-            style="text-decoration: none; background-color: white; color: black"
-          >
-            SIGN UP
-          </a></b
-        >
-      </button>
-    </div>
-
-    <div class="nav">
-        <button onclick="home" id="home"><b>Home</b></button>
-        <button onclick="solutions" id="solutions">Solutions</button>
-    </div>
-
-    <div class="nikhil">
-        <div class="main">
-            <h1 style="color: #284053; font-size: 30px">
-                How can we help you today?
-            </h1>
-            <form id="form">
-                <input type="text" placeholder="Enter Search intem here .." name="search" id="search" />
-                <button type="submit" id="submit">search</button>
-            </form>
-            <label id="box"><b>+</b></label>
-            <label id="ticket">New Support Ticket</label>
-
-            <label id="box2"><b>-\-</b></label>
-            <label id="ticket2">Check Ticket Status</label>
+      <div id="top">
+        <!-- heaqding  -->
+        <div id="topbox1">
+          <p>Simplifying Mobility</p>
         </div>
 
-        <div class="main1">
-            <div class="submain1">
-                <div class="submain11">
-                    <h1>Knowledge base</h1>
-                    <label style="font-size: 20px; color: grey">FAQs</label>
-                </div>
+        <div id="topbox2">
+          <!-- heaDING Box2 -->
 
-                <div id="a">
-                    <h3>Learn about ONN (5)</h3>
-                    <ul>
-                        <li><a href="#"> what is Onn bike</a></li>
-                        <li><a href="#">what are the benefits of using Onn</a></li>
-                        <li><a href="#">what are the bike options available?</a></li>
-                        <li><a href="#">where is Onn currently operation</a></li>
-                        <li><a href="#">our Usage policy</a></li>
-                    </ul>
-                </div>
+          <p id="abc98">Welcome</p>
 
-                <div id="b">
-                    <h3>Getting started (5)</h3>
-                    <ul>
-                        <li><a href="#">how do i register with Onn</a></li>
-                        <li><a href="#">what are the document required?</a></li>
-                        <li>
-                            <a href="#">i am having trouble register in platform..</a>
-                        </li>
-                        <li><a href="#">i dont have drive licens</a></li>
-                        <li><a href="#">your Usage policy</a></li>
-                    </ul>
-                </div>
-
-                <div id="c">
-                    <h3>plan and promotion (5)</h3>
-                    <ul>
-                        <li><a href="#">how do i register with Onn</a></li>
-                        <li><a href="#">what are the document required?</a></li>
-                        <li>
-                            <a href="#">i am having trouble register in platform..</a>
-                        </li>
-                        <li><a href="#">i dont have drive licens</a></li>
-                        <li><a href="#">your Usage policy</a></li>
-                    </ul>
-                </div>
-
-                <div id="d">
-                    <h3>Booking your ride (5)</h3>
-                    <ul>
-                        <li><a href="#">how do i register with Onn</a></li>
-                        <li><a href="#">what are the document required?</a></li>
-                        <li>
-                            <a href="#">i am having trouble register in platform..</a>
-                        </li>
-                        <li><a href="#">i dont have drive licens</a></li>
-                        <li><a href="#">your Usage policy</a></li>
-                    </ul>
-                </div>
-
-                <div id="e">
-                    <h3>Payment,cancellation and refund.. (5)</h3>
-                    <ul>
-                        <li><a href="#">how do i register with Onn</a></li>
-                        <li><a href="#">what are the document required?</a></li>
-                        <li>
-                            <a href="#">i am having trouble register in platform..</a>
-                        </li>
-                        <li><a href="#">i dont have drive licens</a></li>
-                        <li><a href="#">your Usage policy</a></li>
-                    </ul>
-                </div>
-
-                <div id="f">
-                    <h3>Security(5)</h3>
-                    <ul>
-                        <li><a href="#">how do i register with Onn</a></li>
-                        <li><a href="#">what are the document required?</a></li>
-                        <li>
-                            <a href="#">i am having trouble register in platform..</a>
-                        </li>
-                        <li><a href="#">i dont have drive licens</a></li>
-                        <li><a href="#">your Usage policy</a></li>
-                    </ul>
-                </div>
-
-                <div id="g">
-                    <h3>Covid-19 safety (5)</h3>
-                    <ul>
-                        <li><a href="#">how do i register with Onn</a></li>
-                        <li><a href="#">what are the document required?</a></li>
-                        <li>
-                            <a href="#">i am having trouble register in platform..</a>
-                        </li>
-                        <li><a href="#">i dont have drive licens</a></li>
-                        <li><a href="#">your Usage policy</a></li>
-                    </ul>
-                </div>
-                <div id="h">
-                    <h3>explore all the FAQs (5)</h3>
-                    <ul>
-                        <li><a href="#">how do i register with Onn</a></li>
-                        <li><a href="#">what are the document required?</a></li>
-                        <li>
-                            <a href="#">i am having trouble register in platform..</a>
-                        </li>
-                        <li><a href="#">i dont have drive licens</a></li>
-                        <li><a href="#">your Usage policy</a></li>
-                    </ul>
-                </div>
-
-                <button style="color: gray; font-size: 25px0">Offerings</button>
-                <div id="xxx" style="border-bottom: 1px solid green"></div>
-
-                <div id="i">
-                    <h3>
-                        Rent-To-Own(R2O)<label style="color: gray; font-size: 10px">(16)</label
-              >
-            </h3>
-
-            <ul>
-              <li><a href="#">how do i register with Onn</a></li>
-              <li><a href="#">what are the document required?</a></li>
-              <li>
-                <a href="#">i am having trouble register in platform..</a>
-              </li>
-              <li><a href="#">i dont have drive licens</a></li>
-              <li><a href="#">your Usage policy</a></li>
-            </ul>
+          <div id="juggad1">
+            <div id="login-btn"><p>LOGIN</p></div>
+            <button id="dummy"></button>
+            <div id="login-btn2"><p>SIGN UP</p></div>
           </div>
         </div>
       </div>
+
+      <div id="voldermart">
+        <button id="abc1">Home</button>
+        <button id="abc2">Solution</button>
+      </div>
+
+      <div id="top2">
+        <!-- 2nd head part -->
+
+        <div id="onetop2">
+          <p>How can we help you today?</p>
+        </div>
+
+        <div id="2top2">
+          <input
+            placeholder="Enter your search term here..."
+            type="text"
+            data-max-matches="10"
+          /><i id="search" class="fas fa-search"></i>
+        </div>
+
+        <div id="3top2">
+          <i id="nnd_line_1st" class="fas fa-plus-square"></i>
+          <a href="./addTicket.html" class="rnd" title="New support ticket">
+            New support ticket
+          </a>
+
+          <i id="nnd_line_2nd" class="fas fa-share-alt-square"></i>
+          <a href="./showticket.html" class="rnd" title="Check ticket status">
+            Check ticket status
+          </a>
+        </div>
+      </div>
+      <div id="power-off">
+        <button id="power-off132254">
+          <i class="fas fa-arrow-circle-left"></i>Onbike Home
+        </button>
+      </div>
+
+      <div id="stem">
+        <!-- 3  stem after 2nd top  -->
+
+        <div id="stem-top">
+          <div>
+            <h2 id="heading-k">Knowledge base</h2>
+          </div>
+
+          <div>
+            <h3 id="heading-k2" class="heading">FAQs</h3>
+          </div>
+
+          <div id="stem-box">
+            <!-- BIG-lists -->
+
+            <div id="stem-box-1">
+              <!-- BIG-lists-1-->
+
+              <div>
+                <a href="" class="sub-head" title="Learn about ONN ">
+                  <p>Learn about ONN</p></a
+                >
+              </div>
+
+              <ul>
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q1">What is ONN Bikes?</a>
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q2"
+                      >What are the benefits of using ONN?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q3"
+                      >What are the bike options available?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q4"
+                      >Where is ONN currently operational?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q5">Our Usage Policy</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div id="stem-box-2">
+              <!-- BIG-lists-2-->
+
+              <div>
+                <a href="" class="sub-head" title="Getting Started ">
+                  Getting Started <span>(5)</span></a
+                >
+              </div>
+
+              <ul>
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q6"
+                      >How do I register with ONN?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q7"
+                      >What are documents required,register on ONN Bikes?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q8"
+                      >I am having trouble registering on the platform.</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q9"
+                      >I don&#x27;t have a Driving License.</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q10"
+                      >What is the Privacy Policy?</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div id="stem-box-3">
+              <!-- BIG-lists-3-->
+
+              <div>
+                <a href="" class="sub-head" title="Plans &amp; Promotions">
+                  Plans &amp; Promotions <span>(8)</span></a
+                >
+              </div>
+
+              <ul>
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q11"
+                      >What are the various plans available?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q12"
+                      >What are commute rides and subscription?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q13"
+                      >What is Rent-to-Own(R2O) plans</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q14"
+                      >Is the fuel/charging included in my tariff?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q15"
+                      >How do I redeem my Promo Code?</a
+                    >
+                  </div>
+                </li>
+              </ul>
+              <a href="" class="extra-feat">See all 8 articles</a>
+            </div>
+
+            <div id="stem-box-4">
+              <!--  ............... BIG-lists-4-->
+
+              <div>
+                <a href="" class="sub-head" title="Booking your Ride">
+                  Booking your Ride <span>(9)</span></a
+                >
+              </div>
+
+              <ul>
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q16">How do I book a ride?</a>
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q17"
+                      >How do I book a commute?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q18"
+                      >How do I reach my Pickup Station?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q19"
+                      >Can I drop off my bike at a different station?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q20"
+                      >What are ONN station timings?</a
+                    >
+                  </div>
+                </li>
+              </ul>
+
+              <a href="" class="extra-feat">See all 9 articles</a>
+            </div>
+
+            <div id="stem-box-5">
+              <!--  ............... BIG-lists-5-->
+
+              <div>
+                <a
+                  href=""
+                  class="sub-head"
+                  title="Payments, Cancellation and Refund"
+                >
+                  Payments, Cancellation and Refund <span>(6)</span></a
+                >
+              </div>
+
+              <ul>
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q21"
+                      >What are the various modes of payment for my ride?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q22"
+                      >Payment done but confirmation not received.</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q23"
+                      >What are the late drop off charges?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q24"
+                      >I want to cancel my ride.</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q25"
+                      >What are the refund policies?</a
+                    >
+                  </div>
+                </li>
+              </ul>
+              <a href="" class="extra-feat">See all 6 articles</a>
+            </div>
+
+            <div id="stem-box-6">
+              <!--  ............... BIG-lists-6-->
+
+              <div>
+                <a href="" class="sub-head" title="Security">
+                  Security <span>(7)</span></a
+                >
+              </div>
+
+              <ul>
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q26"
+                      >Are the rides insured?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q27"
+                      >What are the charges for damages to the bike?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q28"
+                      >What is the speed limit policy?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q29"
+                      >What to do in case of malfunction and breakdowns?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q30"
+                      >Will I get refund for emergency repairs?</a
+                    >
+                  </div>
+                </li>
+              </ul>
+
+              <a href="" class="extra-feat">See all 7 articles</a>
+            </div>
+
+            <div id="stem-box-7">
+              <!--  ............... BIG-lists-7-->
+
+              <div>
+                <a href="" class="sub-head" title="COVID-19 Safety">
+                  COVID-19 Safety <span>(5)</span></a
+                >
+              </div>
+
+              <ul>
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q31"
+                      >What are the measures taken by us for COVID-19 Safety?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q32"
+                      >Where is the bike sanitization facility available?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q33"
+                      >How many times can I get my bike sanitized?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q34"
+                      >How are ONN Stations ensuring safety?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q35"
+                      >How can I get home delivery of my bike?</a
+                    >
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div id="stem-box-8">
+              <!--  ............... BIG-lists-8-->
+
+              <div>
+                <a href="" class="sub-head" title="Explore all the FAQs">
+                  Explore all the FAQs <span>2</span></a
+                >
+              </div>
+
+              <ul>
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q36"
+                      >Will I be provided with helmet on pickup?</a
+                    >
+                  </div>
+                </li>
+
+                <li>
+                  <div>
+                    <a href="./solution.html" id="q37">Link</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!--.............end of 8_blocks.................-->
+          </div>
+        </div>
+
+        <div id="stem-bottom">
+          <h3 id="heading-k22"><a href="" id="heading-k223">Offerings</a></h3>
+
+          <div>
+            <div>
+              <a href="" class="sub-head" id="lct" title="Rent-To-Own(R2O)"
+                >Rent-To-Own(R2O)<span>(16)</span></a
+              >
+            </div>
+
+            <ul>
+              <li>
+                <div>
+                  <a href="./solution.html" id="q38"
+                    >What is Rent-To-Own(R2O)</a
+                  >
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <a href="./solution.html" id="q39"
+                    >Benefits of R2O over renting a bike.</a
+                  >
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <a href="./solution.html" id="q40"
+                    >Payment scheme for R2O plan</a
+                  >
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <a href="./solution.html" id="q41"
+                    >What will be the service assistance during the R2O plan?</a
+                  >
+                </div>
+              </li>
+
+              <li>
+                <div>
+                  <a href="./solution.html" id="q42"
+                    >Can I use the vehicle in a different state?</a
+                  >
+                </div>
+              </li>
+            </ul>
+            <a href="" class="extra-feat">See all 16 articles</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="root">
+        <p>HOME - SOLUTIONS</p>
+
+        <div id="overlay" onclick="off()">
+          <div id="text">
+            <div id="white-board">
+              <pre>	
+<h2>Why we love Cookies</h2>
+<hr>
+<p>
+   We use cookies to try and give you a better experience in 
+   Freshdesk.</p>
+<p>
+   You can learn more about what kind of cookies we use, why, 
+   and how from our Privacy Policy. If you hate cookies, or are 
+   just on a diet, you can disable them altogether too. Just note 
+   that the Freshdesk service is pretty big on some cookies (we love 
+   the choco-chip ones), and some portions of Freshdesk may not work properly 
+   if you disable cookies.
+</p> 
+<p>
+   We’ll also assume you agree to the way we use cookies and are ok with it 
+   as described in our Privacy Policy, unless you choose to disable them 
+   altogether through your browser.
+</p></pre>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p id="end" onclick="on()">cookie-policy</p>
+        </div>
+      </div>
+
+      <!-- main body end -->
     </div>
   </body>
 </html>
+
+<script src="faq.js"></script>
