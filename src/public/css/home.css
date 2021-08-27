@@ -865,7 +865,7 @@ footer > .footer_upperPart + hr {
   width: 3.3rem;
   height: 3.3rem;
   background-position: -7466px 0;
-  background-image: url(../IMG_FILE/completeImg.png);
+  background-image: url(../images/completeImg.png);
   position: absolute;
   cursor: pointer;
 }
@@ -1099,7 +1099,7 @@ footer > .footer_upperPart + hr {
   width: 35%;
   height: 100rem;
   margin-top: 0%;
-  background-image: url(../IMG_FILE/spritupdate.png);
+  background-image: url(../images/spritupdate.png);
   background-size: 100% 50rem;
   background-repeat: no-repeat;
 }
@@ -1556,7 +1556,7 @@ footer > .footer_upperPart + hr {
   width: 3.3rem;
   height: 3.3rem;
   background-position: -7466px 0;
-  background-image: url(../IMG_FILE/completeImg.png);
+  background-image: url(../images/completeImg.png);
   position: absolute;
   top: 15%;
   right: 5%;
@@ -1618,7 +1618,7 @@ footer > .footer_upperPart + hr {
   margin: auto;
   margin-top: 50%;
   margin-bottom: 5%;
-  background-image: url(../IMG_FILE/completeImg.png);
+  background-image: url(../images/completeImg.png);
 }
 
 .myAccount .left-side .user-name {
@@ -1936,7 +1936,7 @@ footer > .footer_upperPart + hr {
   width: 2.3rem;
   height: 2.3rem;
   background-position: -5663px 0;
-  background-image: url(../IMG_FILE/completeImg.png);
+  background-image: url(../images/completeImg.png);
   position: absolute;
   right: 3.4rem;
   top: 2.2rem;
@@ -2092,7 +2092,7 @@ footer > .footer_upperPart + hr {
   width: 37px;
   height: 24px;
   background-position: -863px 0;
-  background-image: url(../IMG_FILE/completeImg.png);
+  background-image: url(../images/completeImg.png);
 }
 
 #roadSolid {
@@ -2100,7 +2100,7 @@ footer > .footer_upperPart + hr {
   width: 14px;
   height: 19px;
   background-position: -3081px 0;
-  background-image: url(../IMG_FILE/completeImg.png);
+  background-image: url(../images/completeImg.png);
 }
 
 #coinSolid {
@@ -2108,7 +2108,7 @@ footer > .footer_upperPart + hr {
   width: 30px;
   height: 30px;
   background-position: -2365px 0;
-  background-image: url(../IMG_FILE/completeImg.png);
+  background-image: url(../images/completeImg.png);
   background-repeat: no-repeat;
   position: relative;
   border-color: none;
