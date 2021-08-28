@@ -1,3 +1,17 @@
+
+// let names = async () => {
+//     try {
+//         let data = await fetch('http://localhost:3007/safety/all')
+//         let resp = await data.json();
+//         console.log("myalldata", resp);
+//         showAllBikes(resp)
+//     }
+//     catch (err) {
+//         console.log("error:", err);
+//     }
+// }
+// names();
+
 if (localStorage.getItem("OnnAllBikes") == null) {
     const OnnAllBikes = [{
         name: "Bajaj",
@@ -250,21 +264,6 @@ if (localStorage.getItem("OnnAllBikes") == null) {
     localStorage.setItem("OnnAllBikes", JSON.stringify(OnnAllBikes));
 }
 
-// let names = async () => {
-//     try {
-//         let data = await fetch('http://localhost:3007/safety/all')
-//         let resp = await data.json();
-//         console.log("myalldata", resp);
-//         showAllBikes(resp)
-//     }
-//     catch (err) {
-//         console.log("error:", err);
-//     }
-// }
-// names();
-
-
-
 function showAllBikes(sd) {
     let OnnAllBikes = sd;
 
@@ -333,6 +332,7 @@ function showAllBikes(sd) {
     });
 }
 
+showAllBikes(JSON.parse(localStorage.getItem("OnnAllBikes")));
 
 function ccall() {
     showAllBikes(JSON.parse(localStorage.getItem("OnnAllBikes")));
@@ -390,7 +390,6 @@ function cc500() {
         }
     }
     showAllBikes(myBikeArr);
-
 }
 
 function Comfort() {
@@ -403,7 +402,6 @@ function Comfort() {
         }
     }
     showAllBikes(myBikeArr);
-
 }
 
 function Cruiser() {
@@ -416,7 +414,6 @@ function Cruiser() {
         }
     }
     showAllBikes(myBikeArr);
-
 }
 
 function Gearless() {
@@ -429,7 +426,6 @@ function Gearless() {
         }
     }
     showAllBikes(myBikeArr);
-
 }
 
 function Geared() {
@@ -438,6 +434,7 @@ function Geared() {
 
 function Motorbike() {
     showAllBikes(JSON.parse(localStorage.getItem("OnnAllBikes")));
+    let mybtn = document.getElementById("Motorbike");
 }
 
 function Scooter() {
