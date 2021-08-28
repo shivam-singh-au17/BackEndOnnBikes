@@ -25,6 +25,29 @@ router.get("/faq1", async (req, res) => {
   }
 });
 
+router.get("/login", async (req, res) => {
+  try {
+    return res.render("login");
+  } catch (err) {
+    return res.status(400).send(err.message);
+  }
+});
+
+router.get("/signup", async (req, res) => {
+  try {
+    return res.render("signup");
+  } catch (err) {
+    return res.status(400).send(err.message);
+  }
+});
+router.get("/faq1/solution", async (req, res) => {
+  try {
+    return res.render("solution");
+  } catch (err) {
+    return res.status(400).send(err.message);
+  }
+});
+
 router.get("/safety/blog", async (req, res) => {
   try {
     return res.render("BLOGpage");
