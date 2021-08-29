@@ -5,6 +5,7 @@
 * We used  [HTML-5](https://www.w3schools.com/html/) ,  [CSS-3](https://www.w3schools.com/css/default.asp)  and  [Javascript](https://www.w3schools.com/js/default.asp)  for front-end.
 * We used  [MongoDB](https://www.mongodb.com/cloud/atlas)  for database.
 * We used  [Node.js](https://nodejs.org/en/)  and  [Express.js](https://expressjs.com/)  library for back end.
+* And we are also used  [EJS](https://ejs.co/) (Embedded JavaScript templates).
 
 # Tools 
 * [VS Code]()
