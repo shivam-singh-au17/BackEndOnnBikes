@@ -2,7 +2,7 @@
 ### ONN Bikes is a Rent a Bike or Scooty with Most Flexible Daily, Weekly & Monthly Bike Rental Plans @ Most Affordable Price. Free Helmet & Easy Booking.
 
 # Technologies Used
-* We used [HTML-5]() and [CSS-3]() for front-end
+* We used  [HTML-5](https://www.w3schools.com/html/) ,  [CSS-3](https://www.w3schools.com/css/default.asp)  and  [Javascript](https://www.w3schools.com/js/default.asp)  for front-end.
 * [Javascript]() for back-end
 * Localstorage is used for the data-storing purpose (as we are not introduced to the databases till now)
 
