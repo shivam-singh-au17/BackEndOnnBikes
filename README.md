@@ -97,12 +97,12 @@
 #### Github [ananthuasokkumar](https://github.com/ananthuasokkumar)
 
 # Challenges -
-<h5>1. Communication
-Distance always matters for group work. As we are from different parts of India, miscommunications were the common challenges for us. But, we make it happen with the help of slack and WhatsApp.</h5>
-<h5>2. Collaboration
-As we are using Git collaboration, initially we were facing some technical issues, but continuously co-ordinations, make things easier.</h5>
-<h4>3. And we had some problems connecting all the pages to the server and  making all functions work properly through the server.</h4>
-**These challenges improve our abilities to be a good Team Player and finally we did the constitution of all the problems together and made our perfect project.**
+<p>1. Communication
+Distance always matters for group work. As we are from different parts of India, miscommunications were the common challenges for us. But, we make it happen with the help of slack and WhatsApp.<p>
+<p>2. Collaboration
+As we are using Git collaboration, initially we were facing some technical issues, but continuously co-ordinations, make things easier.</p>
+<p>3. And we had some problems connecting all the pages to the server and  making all functions work properly through the server.</p>
+These challenges improve our abilities to be a good Team Player and finally we did the constitution of all the problems together and made our perfect project.
 
 
 # Conclusion -
