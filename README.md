@@ -8,8 +8,8 @@
 * And we are also used  [EJS](https://ejs.co/) (Embedded JavaScript templates).
 
 # Tools 
-* [VS Code]()
-* [Github]()
+* [VS Code](https://code.visualstudio.com/download) to write code.
+* [Github](https://github.com/shivam-singh-au17) to used for version control.
 
 # Tools for communication
 * [Slack]()
