@@ -12,8 +12,8 @@
 * [Github](https://github.com/shivam-singh-au17) to used for version control.
 
 # Tools for communication
-* [Slack]()
-* [Zoom]()
+* [Slack](https://slack.com/intl/en-in/) for communication.
+* [Zoom](https://zoom.us/) for show work.
 
 # Our Agendas - 
 * Breaking the whole work into the smallest divisions according to our strong zone.
