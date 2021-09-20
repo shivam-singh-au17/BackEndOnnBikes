@@ -25,9 +25,17 @@
 # Steps to browse the project:
 
 ### First you clone or download this project from here.
-### And then open it in VS Code and then start Git Bash terminal at the same location.
-### After that type this command. <> npm run server </>
-#### And then go to your browser and type this url http://localhost:3007/home
+```
+git clone https://github.com/shivam-singh-au17/BackEndOnnBikes.git
+```
+### And then open it in VS Code and then start Git Bash terminal at the same location. after that type this command.  
+```
+npm run server
+```
+#### And then go to your browser and type this url 
+```
+http://localhost:3007/home
+```
 
 #### 1.  And in this way you will get to see this landing page and how you can book a bike from here is written on the following points.
 ![Screenshot (1314)](https://github.com/shivam-singh-au17/project_oonbikes/blob/shivam/IMG_FILE/contact/Screenshot%20(1314).png?raw=true)
