@@ -32,7 +32,7 @@ git clone https://github.com/shivam-singh-au17/BackEndOnnBikes.git
 ```
 npm run server
 ```
-#### And then go to your browser and type this url 
+### And then go to your browser and type this url 
 ```
 http://localhost:3007/home
 ```
