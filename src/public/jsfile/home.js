@@ -93,7 +93,7 @@ function overlay() {
 
   let img = document.createElement("img");
   img.src =
-    "https://marketingonn.s3.ap-south-1.amazonaws.com/WebsiteBanners/NewYear-2021-Desktop-Banner.jpg";
+    "https://raw.githubusercontent.com/shivam-singh-au17/BackEndOnnBikes/main/src/public/images/bike-offer.jpg";
 
   let btn = document.createElement("button");
   btn.id = "close";

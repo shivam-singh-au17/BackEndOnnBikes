@@ -8,14 +8,13 @@ function overlay() {
     div2.id = "popup";
 
     let img = document.createElement("img");
-    img.src =
-        "https://marketingonn.s3.ap-south-1.amazonaws.com/WebsiteBanners/NewYear-2021-Desktop-Banner.jpg";
+    img.src = "https://raw.githubusercontent.com/shivam-singh-au17/BackEndOnnBikes/main/src/public/images/bike-offer.jpg";
 
     let btn = document.createElement("button");
     btn.id = "close";
     btn.innerHTML = "&times;";
 
-    btn.addEventListener("click", function() {
+    btn.addEventListener("click", function () {
         deletethis();
     });
 
